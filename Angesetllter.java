@@ -28,8 +28,7 @@ public class Angestellter extends Person{
     String KundenLoeschen(){}
     String NeuenAngestellterEinrichten(String Name, int id){
         Angestellter=new.Angestellter=new Angestellter(name, id)
-
-
+        return "New customer created with name: " + name + " and ID: " + id;
     }
 
 }
