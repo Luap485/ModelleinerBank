@@ -26,7 +26,10 @@ public class Angestellter extends Person{
     KUNDE AktkundeGebent(){}
     void KontoSetzen(int){}
     String KundenLoeschen(){}
-    String NeuenAngestellterEinrichten(String Name, int id){}
+    String NeuenAngestellterEinrichten(String Name, int id){
         Angestellter=new.Angestellter=new Angestellter(name, id)
+
+
+    }
 
 }
