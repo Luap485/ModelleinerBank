@@ -6,7 +6,7 @@ public class Angestellter extends Person{
     private Konto aktKonto;
     private List<Angestellter> Angestellter;
 
-    public Angestellter(String name, int id, Bank bank){
+    public Angestellter(String name, int id, Bank Bank){
         this.name = name;
         this.id = id;
         this.bank = bank;
@@ -26,5 +26,7 @@ public class Angestellter extends Person{
     KUNDE AktkundeGebent(){}
     void KontoSetzen(int){}
     String KundenLoeschen(){}
-    String NeuenAngestellterEinrichten(String, int){}
-    }
+    String NeuenAngestellterEinrichten(String Name, int id){}
+        Angestellter=new.Angestellter=new Angestellter(name, id)
+
+}
