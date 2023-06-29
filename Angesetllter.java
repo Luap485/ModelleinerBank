@@ -4,9 +4,13 @@ public class Angestellter extends Person{
     private KUNDE aktKunde;
     private BANK bank;
     private Konto aktKonto;
-    public Angestellter [] array AngesetlltenListe;
-    public Angestellter(){
-        this.
+    private List<Angestellter> Angestellter;
+
+    public Angestellter(String name, int id, Bank bank){
+        this.name = name;
+        this.id = id;
+        this.bank = bank;
+        this.Angestellter = new ArrayList<>();
 
     }
     ANGESTELLTER(String, int, BANK){}

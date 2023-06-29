@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.List;
+
 public abstract class Person {
     String Name;
     int Pin;
@@ -6,5 +9,4 @@ public abstract class Person {
         this.Name = newName;
         this.Pin = newPin;
     }
-
 }
