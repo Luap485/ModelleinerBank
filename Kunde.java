@@ -32,8 +32,7 @@ public class Kunde extends Person {
         }
         //Müssen wir noch machen
         AUSZUGSEINTRAG AuszugsdatenErstellen(){
-                //accountStatement.Auszugsdaten("Datum: 2023-06-28");
-                //accountStatement.Auszugsdaten("Konto Besitzer: " + getName());
+                 //accountStatement.Auszugsdaten("Konto Besitzer: " + getName());
                 // accountStatement.Auszugsdaten("Kontostand: " + getKontostand());
 
                 return accountStatement;
